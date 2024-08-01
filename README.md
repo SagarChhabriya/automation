@@ -5,8 +5,8 @@
 
 ## Automation Scripts
 
-1. [Certificates Automation](generatePDFs.py)
-2. [Machine Learning Pipeline](pipeline.ipynb)
+1. [Certificates Automation](/Certificates/generatePDFs.py)
+2. [Machine Learning Pipeline](ML/pipeline.ipynb)
 
 
 
