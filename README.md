@@ -11,7 +11,3 @@
 
 
 
-## Automation Scripts
-
-1. [Certificates Automation](https://github.com/SagarChhabriya/repository/blob/main/automation/Certificates/generatePDFs.py)
-2. [Machine Learning Pipeline](https://github.com/SagarChhabriya/repository/blob/main/automation/ML/pipeline.ipynb)
