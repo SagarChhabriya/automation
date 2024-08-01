@@ -1,4 +1,4 @@
 ## Automation Scripts
 
 1. [Certificates Automation](/workspaces/automation/Certificates/generatePDFs.py)
-2. [Machine Learning Pipeline]()
+2. [Machine Learning Pipeline](/workspaces/automation/ML/pipeline.ipynb)
