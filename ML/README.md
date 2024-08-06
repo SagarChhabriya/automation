@@ -5,7 +5,7 @@
 ```python
 # Perform the necessary imports
 from sklearn.pipeline import make_pipeline
-from sklearn.preprocessing import StandardScalar()
+from sklearn.preprocessing import StandardScalar
 from sklearn.cluster import KMeans
 
 # Create scaler: scaler
