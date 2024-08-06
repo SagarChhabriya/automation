@@ -1,7 +1,9 @@
 
-## [Pipeling with Pipeline object](/ML/pipeline.ipynb)
-## Pipelining Using make_pipeline function
+### [Pipeling with Pipeline object](/ML/pipeline.ipynb)
+### [Pipelining Using make_pipeline function](#pipelining-using-make_pipeline-function)
+### [TSNE](#tsne)
 
+## Pipelining Using make_pipeline function
 ```python
 # Perform the necessary imports
 from sklearn.pipeline import make_pipeline
@@ -54,3 +56,27 @@ plt.show()
 ```
 
 ![image](https://github.com/user-attachments/assets/35f6ab6b-13f2-4d91-9b7f-06d2d3fa2253)
+
+
+## TSNE
+```python
+# Import TSNE
+from sklearn.manifold import TSNE 
+
+# Create a TSNE instance: model
+model = TSNE(learning_rate=200)
+
+# Apply fit_transform to samples: tsne_features
+tsne_features = model.fit_transform(samples)
+
+# Select the 0th feature: xs
+xs = tsne_features[:,0]
+
+# Select the 1st feature: ys
+ys = tsne_features[:,1]
+
+# Scatter plot, coloring by variety_numbers
+plt.scatter(xs,ys,c=variety_numbers)
+plt.show()
+
+```
