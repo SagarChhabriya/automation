@@ -38,3 +38,19 @@ ct = pd.crosstab(df['labels'],df['species'])
 print(ct)
 
 ```
+
+### Hierarchical Clustering
+```python
+# Perform the necessary imports
+import matplotlib.pyplot as plt
+from scipy.cluster.hierarchy import linkage, dendrogram
+
+# Calculate the linkage: mergings
+mergings = linkage(samples,method='single')
+
+# Plot the dendrogram
+dendrogram(mergings, labels=country_names,leaf_rotation=90,leaf_font_size=6)
+plt.show()
+```
+
+![image](https://github.com/user-attachments/assets/35f6ab6b-13f2-4d91-9b7f-06d2d3fa2253)
